@@ -30,6 +30,16 @@ export default [
     gitHub: 'https://github.com/AnnaPrutnik',
     telegram: 'https://t.me/AnnaPrutnik',
   },
+    {
+    fullName: 'Larisa Shatil',
+    firstName: 'Larisa',
+    secondName: 'Shatil',
+    position: 'Developer',
+    photo: img8,
+    linkedIn: 'http://www.linkedin.com/in/LarisaShatillo/',
+    gitHub: 'https://github.com/LarisaShatil',
+    telegram: 'https://t.me/Larisa_Shatillo ',
+  },
   {
     fullName: 'Dmitry Dramaretsky',
     firstName: 'Dmitry',
@@ -80,16 +90,6 @@ export default [
     linkedIn: 'https://www.linkedin.com/in/aleksey-dibikov-377a6921a/',
     gitHub: 'https://github.com/Aleksey-Dibikov',
     telegram: 'https://t.me/Di_Aleksey',
-  },
-  {
-    fullName: 'Larisa Shatil',
-    firstName: 'Larisa',
-    secondName: 'Shatil',
-    position: 'Developer',
-    photo: img8,
-    linkedIn: 'http://www.linkedin.com/in/LarisaShatillo/',
-    gitHub: 'https://github.com/LarisaShatil',
-    telegram: 'https://t.me/Larisa_Shatillo ',
   },
   {
     fullName: 'Liudmila Kozachenko',
