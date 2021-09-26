@@ -1,0 +1,108 @@
+
+<article class="event">
+    <img class="event__img--circle" src="{{ this.images.[0].url}}" alt="Event poster">
+    <div class="event-wrap">
+        <div class="event__img-wrap">
+            <img class="event__img" 
+
+            src="{{ this.images.[7].url}} "
+
+            alt="Event poster">
+        </div>
+        <div class="event__text-content">
+            <ul class="event__info list">
+                <li class="event__info-item">
+                    <h2 class="event__subtitle">info</h2>
+                    <p class="event__text">
+
+                        {{this.description}}
+
+                        {{this.promoter.description}}
+                    </p>
+                </li>
+                <li class="event__info-item">
+                    <h2 class="event__subtitle">when</h2>
+                    <p class="event__text event__text--first-string">
+                        {{this.dates.start.localDate}}
+                    </p>
+                    <p class="event__text">
+                        {{this.dates.start.localTime}} {{this.dates.timezone}}
+                    </p>
+                </li>
+                <li class="event__info-item">
+                    <h2 class="event__subtitle">where</h2>
+                    <p class="event__text event__text--first-string">
+
+                        {{this._embedded.venues.0.city.name}} {{this.place.city.name}}, {{this._embedded.venues.0.country.name}} {{this.place.area.name}}
+
+                    {{!-- //    {{this._embedded.venues.0.city.name}}, {{this._embedded.venues.0.country.name}} --}}
+
+                    </p>
+                    <p class="event__text">
+                        {{this._embedded.venues.0.name}}
+                    </p>
+                </li>
+                <li class="event__info-item">
+                    <h2 class="event__subtitle">who</h2>
+                    <p class="event__text">
+                        {{this.name}}
+                    </p>
+                </li>
+                <li class="event__info-item">
+                    <h2 class="event__subtitle">prices</h2>
+                    {{#each this.priceRanges}}
+                    <p class="event__text">
+
+                        <svg class="icon-barcode" viewBox="0 0 29 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.22222 0.833496L0 0.833496L0 20.1668H3.22222L3.22222 0.833496Z" fill="#0E0E0E" />
+                            <path d="M11.3266 0.833496L8.10439 0.833496L8.10439 20.1668H11.3266L11.3266 0.833496Z" fill="#0E0E0E" />
+                            <path d="M16.2088 0.833496L12.9866 0.833496L12.9866 20.1668H16.2088L16.2088 0.833496Z" fill="#0E0E0E" />
+                            <path d="M28.9999 0.833496L24.2154 0.833496L24.2154 20.1668H28.9999L28.9999 0.833496Z" fill="#0E0E0E" />
+                            <path d="M6.44449 0.833496L4.88219 0.833496L4.88219 20.1668H6.44449L6.44449 0.833496Z" fill="#0E0E0E" />
+                            <path d="M19.3333 0.833496L17.771 0.833496L17.771 20.1668H19.3333L19.3333 0.833496Z" fill="#0E0E0E" />
+                            <path d="M22.5555 0.833496L20.9932 0.833496L20.9932 20.1668H22.5555L22.5555 0.833496Z" fill="#0E0E0E" />
+                        </svg>
+                        {{this.type}} {{this.min}} - {{this.max}}
+                        {{this.currency}}
+                    </p>
+                    {{/each}}
+                    </li>
+                    <a href="{{this.url}}" class="event__link button" rel="noopener noreferrer nofollow" target="_blank">
+                        buy tickets</a>
+            </ul>
+                
+                {{!-- <button class="event__button button" > buy tickets</button> --}}
+                   
+           
+
+      {{!--            <svg width="29" height="21" viewBox="0 0 29 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.22222 0.833496L0 0.833496L0 20.1668H3.22222L3.22222 0.833496Z" fill="#0E0E0E" />
+                            <path d="M11.3266 0.833496L8.10439 0.833496L8.10439 20.1668H11.3266L11.3266 0.833496Z" fill="#0E0E0E" />
+                            <path d="M16.2088 0.833496L12.9866 0.833496L12.9866 20.1668H16.2088L16.2088 0.833496Z" fill="#0E0E0E" />
+                            <path d="M28.9999 0.833496L24.2154 0.833496L24.2154 20.1668H28.9999L28.9999 0.833496Z" fill="#0E0E0E" />
+                            <path d="M6.44449 0.833496L4.88219 0.833496L4.88219 20.1668H6.44449L6.44449 0.833496Z" fill="#0E0E0E" />
+                            <path d="M19.3333 0.833496L17.771 0.833496L17.771 20.1668H19.3333L19.3333 0.833496Z" fill="#0E0E0E" />
+                            <path d="M22.5555 0.833496L20.9932 0.833496L20.9932 20.1668H22.5555L22.5555 0.833496Z" fill="#0E0E0E" />
+                        </svg>
+                        {{this.type}} {{this.min}} - {{this.max}}
+                        {{this.currency}}
+                    </p>
+                    <button class="event__button button" onclick = "this.url"> buy tickets</button>
+                    {{/each}}
+              </li>
+            </ul>  --}}  
+
+            {{!-- <button class="event__button button"> buy tickets</button> --}}
+            <!-- <a class="event__link link" rel="noopener noreferrer nofollow" target="_blank href={{this.url}} >
+                      buy tickets</a>
+                 
+                  
+                  <p class=" event__text"> VIP from 50 to 500 usd</p>
+              <button class="event__button button">buy tickets</button> -->
+
+        </div>
+    </div>
+    {{!-- <button class="modal__btn-more button">more from this author</button> --}}
+    <a href="https://www.google.com/search?q={{this.name}}" class="modal__btn-more button" rel="noopener noreferrer nofollow" target="_blank">
+        more from this author</a>
+</article>

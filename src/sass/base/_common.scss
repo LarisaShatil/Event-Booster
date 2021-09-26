@@ -1,0 +1,50 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+// при подключении normalize удалить
+
+// html {
+//   box-sizing: border-box;
+// }
+// *,
+// *::before,
+// *::after {
+//   box-sizing: inherit;
+//   border: 1px solid red;
+// }
+
+img {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  position: relative;
+  min-height: 90vh;
+}

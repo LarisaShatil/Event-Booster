@@ -1,0 +1,103 @@
+// Стили модального окна
+.modal {
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background-color: var(--modal-bcg-color);
+}
+
+.event__img--circle {
+  border-radius: 50%;
+}
+.event__text-content {
+  text-align: center;
+}
+.event__subtitle {
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #dc56c5;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.event__text {
+  margin-bottom: 10px;
+  color: #0e0e0e;
+
+  font-size: 16px;
+  line-height: 1.25;
+}
+.event__text--first-string {
+  margin-bottom: 3px;
+}
+
+.button {
+  height: 40px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-transform: uppercase;
+
+  border-radius: 5px;
+}
+
+.event__button {
+  margin-bottom: 20px;
+  width: 145px;
+
+  background-color: #4c00fe;
+  color: #ffffff;
+  border: transparent;
+}
+
+.modal-btn {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5px;
+  width: 230px;
+  background-color: transparent;
+  color: #4c00fe;
+  border: solid 1px #4c00fe;
+}
+
+@media screen and (max-width: 767px) {
+  .event__img--circle {
+    width: 102px;
+    height: 102px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .event__img--circle {
+    width: 70px;
+    height: 70px;
+  }
+  .modal-btn {
+    width: 255px;
+    border-color: #dc56c5;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .event__img--circle {
+    width: 132px;
+    height: 132px;
+  }
+  .event__subtitle {
+    font-size: 24px;
+    margin-bottom: 7px;
+  }
+  .event__text {
+    margin-bottom: 20px;
+  }
+  .event__text--first-string {
+    margin-bottom: 5px;
+  }
+  .event__button {
+    margin-bottom: 31px;
+  }
+  .modal-btn {
+    border-color: #4c00fe;
+  }
+}

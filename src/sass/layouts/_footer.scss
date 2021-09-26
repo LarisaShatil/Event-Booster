@@ -1,0 +1,84 @@
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  position: absolute;
+  bottom: -88px;
+  padding: 60px 34px 27px 34px;
+
+  @media screen and (min-width: 768px) {
+    padding: 60px 0 18px 0;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 80px 0 19px 0;
+  }
+}
+
+.footer-content {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+  text-align: center;
+  color: #939393;
+  margin: 0;
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+.line {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.25);
+  }
+  40% {
+    transform: scale(1.15);
+  }
+
+  60% {
+    transform: scale(1.35);
+  }
+
+  80% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.85);
+  }
+}
+
+.footer-heart {
+  color: rgb(255, 13, 191);
+  animation: heartbeat 1s infinite;
+  display: inline-block;
+  margin: 0 5px 0 5px;
+}
+
+.btn-animate {
+  cursor: pointer;
+  background-color: Transparent;
+
+  border-style: none;
+  margin: 0;
+  padding: 0;
+  transition: color 0.3s;
+
+  &:hover {
+    transform: scale(1.01);
+    color: rgba(255, 13, 190, 0.884);
+    text-shadow: 3px 3px 5px rgb(220, 86, 198);
+  }
+}

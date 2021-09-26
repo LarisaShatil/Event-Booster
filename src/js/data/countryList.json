@@ -1,0 +1,92 @@
+[
+  {
+    "name": "---None---",
+    "countryCode": "null"
+  },
+  {
+    "name": "Germany",
+    "countryCode": "DE"
+  },
+  {
+    "name": "Austria",
+    "countryCode": "AT"
+  },
+
+  {
+    "name": "USA",
+    "countryCode": "US"
+  },
+
+  {
+    "name": "Canada",
+    "countryCode": "CA"
+  },
+  {
+    "name": "Great Britain",
+    "countryCode": "GB"
+  },
+  {
+    "name": "Northern Ireland",
+    "countryCode": "ND"
+  },
+  {
+    "name": "Ireland",
+    "countryCode": "IE"
+  },
+  {
+    "name": "Netherland",
+    "countryCode": "NL"
+  },
+  {
+    "name": "Sweden",
+    "countryCode": "SE"
+  },
+  {
+    "name": "Spain",
+    "countryCode": "ES"
+  },
+  {
+    "name": "Turkey",
+    "countryCode": "TR"
+  },
+  {
+    "name": "Australia",
+    "countryCode": "AU"
+  },
+  {
+    "name": "Mexico",
+    "countryCode": "MX"
+  },
+  {
+    "name": "New Zealand",
+    "countryCode": "NZ"
+  },
+  {
+    "name": "Switzerland",
+    "countryCode": "CH"
+  },
+  {
+    "name": "United Arab Emirates",
+    "countryCode": "AE"
+  },
+  {
+    "name": "Denmark",
+    "countryCode": "DK"
+  },
+  {
+    "name": "Belgium",
+    "countryCode": "BE"
+  },
+  {
+    "name": "Norway",
+    "countryCode": "NO"
+  },
+  {
+    "name": "Finland",
+    "countryCode": "FI"
+  },
+  {
+    "name": "Poland",
+    "countryCode": "PL"
+  }
+]

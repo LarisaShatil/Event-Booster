@@ -1,0 +1,15 @@
+<div class="select__header" data-type="input">
+    <span class="select__current" data-type="input">{{this.placeholder}}</span>
+    <div class="select__icon open" data-type="arrow"></div>
+</div>
+
+<div class="select__body" data-simplebar data-simplebar-auto-hide="false">
+    <ul class="list select__list">
+        {{!-- <div class="wrap"></div> --}}
+        {{#each this.data}}
+        <li class="select__item" data-type="item" data-code={{this.countryCode}}>{{this.name}}</li>
+{{/each}}
+
+    </ul>
+
+</div>

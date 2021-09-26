@@ -1,0 +1,314 @@
+.elements {
+  position: relative;
+}
+
+.left-circle {
+  position: absolute;
+  border: 1px solid #212121;
+  background-color: #0e0e0e;
+  background-image: url(../images/body-element/noise-body.png);
+  box-sizing: border-box;
+  border-radius: 50%;
+  z-index: 13;
+
+  @media screen and (min-width: 768px) {
+    width: 126px;
+    height: 126px;
+    top: -2550px;
+    right: 50%;
+    transform: translateX(50%);
+    margin-right: 298px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 216px;
+    height: 216px;
+    top: -1600px;
+    margin-right: 525px;
+  }
+
+  &::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background: linear-gradient(
+      151.61deg,
+      rgba(196, 196, 196, 0.03) -7.48%,
+      rgba(196, 196, 196, 0) 106.62%
+    );
+    box-sizing: border-box;
+    border-radius: 50%;
+
+    @media screen and (min-width: 768px) {
+      width: 80px;
+      height: 80px;
+      top: 23px;
+      left: 23px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      width: 136px;
+      height: 136px;
+      top: 40px;
+      left: 40px;
+    }
+  }
+}
+
+.right-circle {
+  position: absolute;
+  border: 1px solid #212121;
+  background-color: #0e0e0e;
+  background-image: url(../images/body-element/noise-body.png);
+  box-sizing: border-box;
+  border-radius: 50%;
+  z-index: 13;
+
+  @media screen and (min-width: 768px) {
+    width: 126px;
+    height: 126px;
+    top: -1400px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 298px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 216px;
+    height: 216px;
+    top: -1000px;
+    margin-left: 525px;
+  }
+
+  &::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background: linear-gradient(
+      151.61deg,
+      rgba(196, 196, 196, 0.03) -7.48%,
+      rgba(196, 196, 196, 0) 106.62%
+    );
+    box-sizing: border-box;
+    border-radius: 50%;
+
+    @media screen and (min-width: 768px) {
+      width: 80px;
+      height: 80px;
+      top: 23px;
+      left: 23px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      width: 136px;
+      height: 136px;
+      top: 40px;
+      left: 40px;
+    }
+  }
+}
+
+.quarter-right-bot {
+  &::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    border: 1px solid #212121;
+    box-sizing: border-box;
+    border-radius: 100% 0 0 0;
+
+    @media screen and (min-width: 768px) {
+      width: 237px;
+      height: 237px;
+      top: -400px;
+      left: 50%;
+      transform: translateX(-75%);
+      margin-left: 298px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      width: 335px;
+      height: 335px;
+      top: -400px;
+      margin-left: 525px;
+    }
+  }
+}
+
+.quarter-right-top {
+  &::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    border: 1px solid #212121;
+    box-sizing: border-box;
+    border-radius: 100% 0 0 0;
+
+    @media screen and (min-width: 768px) {
+      width: 237px;
+      height: 237px;
+      top: -2200px;
+      left: 50%;
+      transform: translateX(-75%);
+      margin-left: 298px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      width: 335px;
+      height: 335px;
+      top: -1800px;
+      margin-left: 525px;
+    }
+  }
+}
+
+.quarter-left {
+  &::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    border: 1px solid #212121;
+    box-sizing: border-box;
+    border-radius: 0 100% 0 0;
+
+    @media screen and (min-width: 768px) {
+      width: 237px;
+      height: 237px;
+      top: -1350px;
+      right: 50%;
+      transform: translateX(75%);
+      margin-right: 298px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      width: 335px;
+      height: 335px;
+      top: -1000px;
+      margin-right: 525px;
+    }
+  }
+}
+
+footer {
+  &::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    z-index: 10;
+    width: 1px;
+    background: #212121;
+    box-sizing: border-box;
+
+    @media screen and (min-width: 768px) {
+      top: 0;
+      bottom: -31px;
+      left: 50%;
+      margin-left: -299px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      bottom: 13px;
+      margin-left: -525px;
+    }
+  }
+
+  &::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    z-index: 10;
+    width: 1px;
+    background: #212121;
+    box-sizing: border-box;
+
+    @media screen and (min-width: 768px) {
+      top: 0;
+      bottom: -100px;
+      right: 50%;
+      margin-right: -299px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      margin-right: -525px;
+      bottom: -90px;
+    }
+  }
+}
+
+.footer-wrapper {
+  &::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+
+    border: 1px solid #212121;
+    border-radius: 216px 216px 0 0;
+
+    @media screen and (min-width: 768px) {
+      width: 126px;
+      height: 63px;
+      bottom: -6px;
+      right: 50%;
+      transform: translateX(50%);
+      margin-right: 298px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      width: 216px;
+      height: 108px;
+      margin-right: 525px;
+    }
+  }
+
+  &::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background: linear-gradient(
+      151.61deg,
+      rgba(196, 196, 196, 0.03) -7.48%,
+      rgba(196, 196, 196, 0) 106.62%
+    );
+    box-sizing: border-box;
+    border-radius: 136px 136px 0 0;
+
+    @media screen and (min-width: 768px) {
+      width: 80px;
+      height: 40px;
+      bottom: -6px;
+      right: 50%;
+      transform: translateX(50%);
+      margin-right: 298px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      width: 136px;
+      height: 68px;
+      margin-right: 525px;
+    }
+  }
+}
+
+.footer-wrapper .container {
+  &::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    width: 1px;
+    background: #212121;
+    box-sizing: border-box;
+
+    @media screen and (min-width: 768px) {
+      top: -88px;
+      bottom: -6px;
+      right: 50%;
+      margin-right: -299px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      margin-right: -525px;
+    }
+  }
+}

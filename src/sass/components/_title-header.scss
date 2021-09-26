@@ -1,0 +1,46 @@
+.header-title {
+  text-shadow: 1px 1px 3px rgba(255, 13, 190, 0.795), -1px 1px 3px rgba(255, 13, 190, 0.548),
+    0 -15px 70px, 0 0 0.01em #dc56c5, 0 10px 3px #000;
+  transition: all 0.5s;
+}
+
+.header-title b span {
+  animation: blink linear infinite 2s;
+}
+
+.header-title b span:nth-of-type(2) {
+  animation: blink linear infinite 3s;
+}
+
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79% {
+    color: #333;
+  }
+  80% {
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  95% {
+    color: #333;
+    text-shadow: none;
+  }
+  100% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}

@@ -1,0 +1,22 @@
+:root {
+  // colors
+  --accent-color: #dc56c5;
+  --modal-accent-color: #4c00fe;
+  --modal-bcg-color: #fff2fd;
+  // fonts
+  --main-font: 'Montserrat', sans-serif;
+  // grid
+
+  // text color
+  --main-text-color: #ffffff;
+  --secondary-color: #dc56c5;
+  --input-placeholder-text-color: #939393;
+  --input-text-color: #cccccc;
+  --modal-text-color: #0e0e0e;
+  //bg colors
+  --input-bg-color: rgba(255, 255, 255, 0.2);
+  --main-bg-color: rgba(11, 11, 11, 0.5);
+  //for animation
+  --transition-delay: 200ms;
+  --transition-cube-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

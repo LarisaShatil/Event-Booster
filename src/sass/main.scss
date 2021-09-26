@@ -1,0 +1,24 @@
+@import './utils/variables';
+
+// base styles
+@import './base/fonts';
+@import './utils/variables';
+@import './base/container';
+@import './base/common';
+
+// components styles
+@import './components/modal';
+@import './components/scroll-up';
+@import './components/title-header';
+@import './components/modal-event';
+@import './components/theme-switch';
+@import './components/decor-elements';
+@import './components/scroll-bars';
+
+// layout styles
+@import './layouts/footer';
+@import './layouts/event-grid';
+@import './layouts/pagination';
+@import './layouts/search-fields';
+@import './layouts/header';
+@import './layouts/team-modal';

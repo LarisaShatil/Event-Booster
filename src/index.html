@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EVENTS & TICKETS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="../node_modules/@pnotify/core/dist/PNotify.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+    <link rel="shortcut icon" type="image/png" href="./favicon.png" />
+  </head>
+
+  <body class="body">
+    <div class="bg"></div>
+
+    <header class="header">
+      <include src="./partials/header.html"></include>
+      <!-- Поля для поиска -->
+      <include src="./partials/search-fields.html"></include>
+    </header>
+
+    <!-- Сетка с карточками -->
+    <include src="./partials/event-grid.html"></include>
+
+    <!-- <button type="button" class="js-load-more">Search More</button> -->
+
+    <!-- Footer & team-modal-->
+    <include src="./partials/footer.html"></include>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Decor elements-->
+    <include src="./partials/decor-elements.html"></include>
+
+    <!--Модальное окно-->
+    <div class="modal-overlay js-modal" id="modal-overlay">
+      <div class="modal">
+        <button type="button" class="close modal__btn-close" data-action="close-modal"></button>
+
+        <div class="modal__event-card"></div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
