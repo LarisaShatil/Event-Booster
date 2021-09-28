@@ -31,9 +31,9 @@ export default [
     telegram: 'https://t.me/AnnaPrutnik',
   },
     {
-    fullName: 'Larisa Shatil',
+    fullName: 'Larisa Shatillo',
     firstName: 'Larisa',
-    secondName: 'Shatil',
+    secondName: 'Shatillo',
     position: 'Developer',
     photo: img8,
     linkedIn: 'http://www.linkedin.com/in/LarisaShatillo/',
